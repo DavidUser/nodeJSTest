@@ -1,0 +1,5 @@
+Buffer is user to create a raw memory allocated outside the V8 heap.
+It's useful when dealing with TCP streams or the file system.
+
+Show all usages of Buffer Class
+This examples can show, how to user each resource of Buffer class.
