@@ -1,0 +1,11 @@
+{
+	"libs": [
+		"express",
+		"body-parser",
+		"cookie-parser",
+		"multer"
+	],
+	"plugins": {
+		"node": {}
+	}
+}

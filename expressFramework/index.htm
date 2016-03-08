@@ -1,0 +1,18 @@
+<html>
+<body>
+	<form action="http://127.0.0.1:8081/process_post" method="post" accept-charset="utf-8">
+		Firs Name: <input type="text" name="first_name" id="first_name" value=""> <br>
+
+		Last Name: <input type="text" name="last_name" id="last_name" value="">
+	
+		<p><input type="submit" value="Continue →"></p>
+	</form>
+
+	<h3>File Upload:</h3>
+	Select a file to upload: <br>
+	<form action="http://127.0.0.1:8081/file_upload" method="post" enctype="multipart/form-data">
+		<input type="file" name="file" size="50"> <br>
+		<input type="submit" value="Upload File">
+	</form>
+</body>
+</html>
